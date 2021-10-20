@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aaaaa.MainPage">
+
+    <StackLayout>
+        <Grid RowDefinitions="0.108*, 0.893*">
+
+            <Grid BackgroundColor="Black" Grid.Row="0" RowDefinitions="0.093*, 0.814*, 0.093*" ColumnDefinitions="0.006*, 0.086*, 0.816*, 0.086*, 0.006*">
+                <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="Red"/>
+                <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="2" TextColor="White" Text="AAAAAAAAAA" />
+                <Frame Grid.Row="1" Grid.Column="3" BackgroundColor="Green"/>
+            </Grid>
+
+            <Grid  Grid.Row="1" RowDefinitions="0.056*, 0.310*, 0.033*, 0.546*, 0.055*" ColumnDefinitions="0.187*, 0.626*, 0.187*">
+
+                <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="Black"/>
+                <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="Blue"/>
+                <Frame Grid.Row="0" Grid.Column="2" BackgroundColor="Yellow"/>
+
+                <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="Azure"/>
+                <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="WhiteSmoke"/>
+                <Frame Grid.Row="2" Grid.Column="2" BackgroundColor="Gray"/>
+
+                <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="DarkKhaki"/>
+                <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="FloralWhite"/>
+                <Frame Grid.Row="1" Grid.Column="2" BackgroundColor="SaddleBrown"/>
+
+                <Frame Grid.Row="3" Grid.Column="0" BackgroundColor="LightGreen"/>
+                <Frame Grid.Row="3" Grid.Column="1" BackgroundColor="SeaShell"/>
+                <Frame Grid.Row="3" Grid.Column="2" BackgroundColor="RosyBrown"/>
+
+                <Frame Grid.Row="4" Grid.Column="0" BackgroundColor="LightGreen"/>
+                <Frame Grid.Row="4" Grid.Column="1" BackgroundColor="DarkRed"/>
+                <Frame Grid.Row="4" Grid.Column="2" BackgroundColor="Red"/>
+
+                <!--<Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Grid.Row="1" Grid.Column="2" TextColor="Black" Text="AAAAAAAAAA" />
+                <Frame Grid.Row="1" Grid.Column="3" BackgroundColor="Green"/>-->
+                <!--<Frame Grid.Row="1" Grid.Column="1" BackgroundColor="Blue"/>
+                        <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="Black"/>
+                        <Frame Grid.Row="3" Grid.Column="1" BackgroundColor="Green"/>
+                        <Frame Grid.Row="4" Grid.Column="1" BackgroundColor="Beige"/>-->
+
+            </Grid>
+
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
